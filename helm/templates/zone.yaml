@@ -1,0 +1,9 @@
+apiVersion: dataplane.testcontainers.cloud/v1alpha1
+kind: Zone
+metadata:
+  name: my-tcc-zone
+  namespace: {{ .Values.namespace }}
+spec:
+  clientId: {{ .Values.clientId }}
+  clientSecret: {{ .Values.clientSecret }}
+  pullSecret: {{ .Values.pullSecret }}
