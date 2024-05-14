@@ -6,3 +6,4 @@ clientId: ""
 clientSecret: ""
 pullSecret: ""
 namespace: quarkus-tcc-demo
+zoneName: ""

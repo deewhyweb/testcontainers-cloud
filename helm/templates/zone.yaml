@@ -1,7 +1,7 @@
 apiVersion: dataplane.testcontainers.cloud/v1alpha1
 kind: Zone
 metadata:
-  name: ph-zone
+  name: {{ .Values.zoneName }}
   namespace: {{ .Values.namespace }}
 spec:
   clientId: {{ .Values.clientId }}

@@ -11,4 +11,4 @@ spec:
   name: tcc-operator
   source: docker
   sourceNamespace: openshift-marketplace
-  startingCSV: tcc-operator.v0.2.0
+  startingCSV: tcc-operator.v0.2.1
